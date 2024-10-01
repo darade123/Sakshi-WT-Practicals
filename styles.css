@@ -1,0 +1,46 @@
+body {
+    background-image: url("C:\Users\sakshi\Desktop\Sakshidarade\online-shopping.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    align-items: center; /* Center vertically */
+    justify-content: center; /* Center horizontally */
+    min-height: 100vh; /* Full viewport height */
+    text-align: center; /* Center text in the container */
+}
+
+.container {
+    max-width: 1400px; /* Adjust based on your layout needs */
+    width: 100%;
+}
+
+h1 {
+    color: white; /* Set the color of <h1> text to white */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center; /* Center align images horizontally */
+    flex-wrap: wrap; /* Wrap images to the next line if they overflow */
+    gap: 10px; /* Space between images */
+    margin-top: 20px; /* Space above the gallery */
+}
+
+.image-item {
+    width: 250px; /* Width of the square */
+    height: 250px; /* Height of the square */
+    overflow: hidden; /* Hide any overflow of the image */
+    border: 2px solid white; /* Optional: Add border around the images */
+    border-radius: 8px; /* Optional: Rounded corners for the images */
+}
+
+.image-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Ensure images cover the square without distortion */
+}
